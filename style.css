@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#button {
+  height: 100vh;
+  background-color: #706e6e;
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 50%;
+  margin: auto;
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.btn button {
+  padding: 10px 30px;
+}
+.btn .btn1 {
+  background-color: #fe0000;
+  color: #fff;
+  border: none;
+}
+.btn .btn2 {
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffbf00;
+}
+.btn .btn3 {
+  background-color: #9400d3;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn .btn4 {
+  background-color: #9400d3;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+.btn .btn5 {
+  background-color: #138808;
+  color: #fff;
+  border: 2px dotted #fff;
+}
+.btn .btn6 {
+  background-color: #138808;
+  color: #fff;
+  border: 0.5px dashed #fff;
+}
+.btn .btn7 {
+  background-color: #ffff00;
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.btn .btn8 {
+  background-color: #ff4f00;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.btn .btn9 {
+  background-color: #138808;
+  color: #fff;
+  border: 0.5px dashed #fff;
+}
+.btn .btn10 {
+  background-color: #2a3439;
+  color: #fff;
+  border: 1px dashed #fff;
+  border-right-style: none;
+  border-left-style: none;
+}
+.btn .btn11 {
+  background-color: #ff1dce;
+  color: #fff;
+  border: none;
+  border-radius: 35px;
+}
+.btn .btn12 {
+  background-color: #000000;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 35px;
+}
+.btn .btn13 {
+  background: rgb(51, 55, 51);
+  background: linear-gradient(
+    90deg,
+    rgb(40, 43, 40) 0%,
+    rgb(72, 231, 14) 50%,
+    rgb(31, 34, 31) 100%
+  );
+  border: none;
+  color: #fff;
+}
+.btn .btn14 {
+  background: rgb(253, 29, 29);
+  background: linear-gradient(
+    137deg,
+    rgba(253, 29, 29, 1) 9%,
+    rgba(203, 29, 187, 1) 54%,
+    rgba(13, 29, 167, 1) 100%
+  );
+  border: none;
+  color: #fff;
+}
+.btn .btn15 {
+  background-color: rgb(6, 255, 6);
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  outline: #2a3439;
+}
+.btn .btn16 {
+  background-color: #111111;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 2px 10px 5px rgb(128, 187, 144);
+}
